@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+$color-principal:rgba(0, 192, 74, 0.486);
+
+.cabeza{
+   background-color: rgba(121, 228, 162, 0.548);
+   margin: 0;
+   border: 0;
+}
+
+.btn{
+    background-color: $color-principal;
+}
+
+body{
+    background-color: $color-principal;
+    border-color: green;
+}
+
+.inicio{
+    margin-top: 70px;
+    align-content: center;
+    justify-content: space-around;
+
+}
+h1{
+    align-content: center;
+    text-align: center;
+    color: green;
+}
+
+h2{
+    margin-top: 40px;
+}
+
+h3{
+    margin-top: 50px;
+}
+
+.promos{
+
+    padding: auto;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+}
+
+
+
+.marcas{
+    justify-content: center;
+}
+
+.d-block{
+    padding-left:500px;
+    justify-content: center;
+
+}
+
+
+footer{
+    justify-content: center;
+    padding-left:500px;
+    background-color: rgba(2, 63, 25, 0.452);
+    padding-bottom: 0;
+    flex-direction: row;
+}
+
+@media (max-width: 480px)
+{
+
+    .barranav{
+        padding-right: 100px;
+
+    }
+    .d-block{
+        padding-left:0px;
+    }
+
+    .ofertas{
+        flex-direction: column;
+
+    }
+
+    footer{
+     justify-content: center;
+     padding-left:50px;
+     background-color: rgba(2, 63, 25, 0.452);
+     padding-bottom: 0;
+     margin-bottom: 0;
+    }
+}
+
+@media (min-width:480px ) and (max-width:800px)
+{
+    footer{
+        justify-content: center;
+        padding-left:30px;
+        background-color: rgba(2, 63, 25, 0.452);
+        padding-bottom: 0;
+        margin-bottom: 0;
+       }
+
+       .d-block{
+        padding-left:250px;
+    }
+   }
+   
+
+
+form{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 7px;
+    font-size: 17px;
+    border:none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #004406;
+    color: #fff;
+    padding: 20px;
+    border: none;
+}
+
